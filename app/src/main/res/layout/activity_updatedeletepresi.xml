@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Spinner
+        android:layout_height="40dp"
+        android:layout_width="290dp"
+        android:background="@drawable/textbox"
+        android:id="@+id/ward"
+        android:layout_marginTop="50dp"
+        android:entries="@array/war"/>
+
+    <Spinner
+        android:layout_height="40dp"
+        android:layout_width="290dp"
+        android:id="@+id/unitno"
+        android:entries="@array/war"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textbox"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search"
+        android:id="@+id/search"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unitname"
+        android:id="@+id/unitnam"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="place"
+        android:id="@+id/plce"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile"
+        android:id="@+id/mob"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:id="@+id/usrnam"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/update"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/delete"/>
+
+
+</LinearLayout>
